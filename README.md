@@ -1,4 +1,5 @@
 # ims-api
+ims is a trip management system that is used to schedule and create itineraries, track the progress of an individual trip, predict trip actions to help tour operators make clear and informed business decisions.
 
 ### Tech Stacks
 - Python
