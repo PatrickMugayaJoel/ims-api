@@ -11,18 +11,18 @@
 ### Testing
 
 ### Changes
-See [CHANGELOG.md]() for detailed list of changes between releases.
+See [CHANGELOG.md](https://github.com/wewillneverfail/ims-api/blob/master/CHANGELOG.md) for detailed list of changes between releases.
 
 ### Upgrade
-See [UPGRADE.md]() for information about actions needed when upgrading.
+See [UPGRADE.md](https://github.com/wewillneverfail/ims-api/blob/master/UPGRADE.md) for information about actions needed when upgrading.
 
 For production use we recommend you to upgrade only when new version is released and not to follow the master branch.
 
 ### Release
-See [RELEASE.md]() for information about how to make a new release.
+See [RELEASE.md](https://github.com/wewillneverfail/ims-api/blob/master/RELEASE.md) for information about how to make a new release.
 
 ### Bug Tracker
-Browse open issues and submit new ones in [Github Issues]().
+Browse open issues and submit new ones in [Github Issues](https://github.com/wewillneverfail/ims-api/issues).
 
 We are dedicating the Github Issue only for bugs in our codebase. For general questions, start a new thread in the [Community forum]() instead of opening a new Issue.
 
