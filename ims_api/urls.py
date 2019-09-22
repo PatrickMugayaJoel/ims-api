@@ -16,7 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
+app_name = 'authentication'
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('ims_api.app.welcome.urls')),
+    path('api/', include(('ims_api.authentication.urls,
+                          'authentication'), namespace='authentication')),
 ]
