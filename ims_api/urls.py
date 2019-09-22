@@ -19,4 +19,5 @@ from django.urls import include, path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('ims_api.app.welcome.urls')),
+    path('api/', include('ims_api.authentication.urls'))
 ]

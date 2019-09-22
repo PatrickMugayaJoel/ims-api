@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'ims_api.app.welcome',
+    'ims_api.authentication'
 ]
 
 MIDDLEWARE = [
