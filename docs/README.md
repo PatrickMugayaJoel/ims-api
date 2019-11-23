@@ -10,7 +10,21 @@ ims is a trip management system that is used to schedule and create itineraries,
 - djangorestframework
 - postgresql
 
-### Installation
+## Installation
+
+### Pre-requirements.
+- Install [python](https://www.python.org/downloads/)
+- install [Postgresql](https://www.postgresql.org/download/)
+
+### Installation steps.
+- Clone the [repository](https://github.com/wewillneverfail/ims-api)
+- Create a `.env` file. See the `.env_example` in the root directory.
+- Install a [virtual environment](https://virtualenv.pypa.io/en/latest/installation/).
+- Activate the virtual environment and export the environment variables.
+- Run `$ pip3 install -r requirements.txt` to install dependencies.
+- Run `$ python3 manage.py makemigrations` to generate migrations.
+- Run `$ python3 manage.py migrate` to add database tables.
+- Run `$ python3 manage.py runserver` to start the local server.
 
 ### Testing
 
