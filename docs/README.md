@@ -1,6 +1,6 @@
 # ims-api
 [![Build Status](https://travis-ci.com/wewillneverfail/ims-api.svg?branch=ch-integrate-travis-ci-with-api)](https://travis-ci.com/wewillneverfail/ims-api)
-[![Maintainability](https://api.codeclimate.com/v1/badges/3ab15ace0008cb929379/maintainability)](https://codeclimate.com/github/wewillneverfail/ims-api/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/3ab15ace0008cb929379/maintainability)](https://codeclimate.com/github/wewillneverfail/ims-api/maintainability) [![Coverage Status](https://coveralls.io/repos/github/wewillneverfail/ims-api/badge.svg?branch=develop)](https://coveralls.io/github/wewillneverfail/ims-api?branch=develop)
 
 ims is a trip management system that is used to schedule and create itineraries, track the progress of an individual trip, predict trip actions to help tour operators make clear and informed business decisions.
 
