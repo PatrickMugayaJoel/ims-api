@@ -10,6 +10,8 @@ env:
     - CC_TEST_REPORTER_ID=$reporter_id
 
 before_script:
+  - export DB_NAME='ims_db'
+  - export DB_USER='postgres'
   - psql -c 'create database ims_db;' -U postgres
   - python manage.py makemigrations
   - python manage.py migrate
@@ -24,7 +26,7 @@ install:
   - pip install coveralls
 
 script:
-  - py.test --cov=ims_api
+  - py.test --cov=ims_api/app
 
 after_success:
 - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
